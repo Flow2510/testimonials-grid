@@ -116,7 +116,7 @@ h3{
     border: 1px solid hsl(263, 55%, 52%);
 }
 
-@media screen and (min-width:800px) and (max-width:1450px) {
+@media screen and (min-width:800px) and (max-width:1440px) {
     .page_container{
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -163,7 +163,7 @@ h3{
     }
 }
 
-@media screen and (min-width:1350px) {
+@media screen and (min-width:1440px) {
     .page_container{
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -174,7 +174,7 @@ h3{
     body{
         height: 100vh;
         display: flex;
-        padding: 5rem 8rem;
+        padding: 2rem 8rem;
         
     }
 
